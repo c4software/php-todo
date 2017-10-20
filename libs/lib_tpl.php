@@ -49,7 +49,7 @@
 		 * Constructeur de la classe.
 		 * @param bool $debug_mode
 		 */
-		function Template($debug_mode = 0)
+		function __construct($debug_mode = 0)
 		{
 			$this->debug_mode=$debug_mode;
 
